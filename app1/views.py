@@ -13,7 +13,7 @@ def home(request):
 
     else:
         pass
-    return render(request,'index.html')
+    return render(request,'home.html')
 
 
 def records(request):
